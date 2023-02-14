@@ -2,27 +2,27 @@
 Created: 2023-02-1308:06
 
 ## Description
-- Three parts
+**Three parts**
 - Research
 - Development
 - Light Analysis
-- Research
+**Research**
 - Discover service running on remote host and its version
 - Initial thoughts:
 - If the host is live see if it can be scanned by nmap
 - detection does not appear to be an issue, aggressive scans should find what we are looking for.
 - Manually looking at files may be required if host is not live
-- Development
+**Development**
 - Using the provided censys API
 - find hosts that are similar to that of the host in the recon phase
 - Initial thoughts:
 - once the data comes back from the research portion, interacting with the API to find similar hosts should be easy. The more data found in phase 1 the better the report that can be generated here.
-- Light Analysis
+**Light Analysis**
 - Break down host statistics by HTTP/HTTPS and one or more interesting characteristics
 
 ## Part I: Research
 ### Provided file
-- Unzipping the provided file gives us:
+**Unzipping the provided file gives us:**
 - folder containing:
 - CSS Files
 - JS Files
@@ -32,7 +32,7 @@ Created: 2023-02-1308:06
 ### Manual Interaction
 - host irresponsive to ping
 - whois page has invalid contact info
-- in the `services.http.response.body` of the `seach.censys.io` results page shows an `ajs-verion-number` of 7.13.2
+**in the `services.http.response.body` of the `seach.censys.io` results page shows an `ajs-verion-number` of 7.13.2**
 - this corresponds to confluence version 7.13.2
 - exploitDB shows no exploits however,
 - research shows that this version _may_ be vulnerable to CVE-2022-26134 (critical RCE vulnerability)
@@ -45,12 +45,12 @@ Created: 2023-02-1308:06
 ### Results:
 - Host (nmap report): Oracle Virtualbox
 - location: china
-- Port Status: 80 (http) open, all others appear in a filtered state
+**Port Status: 80 (http) open, all others appear in a filtered state**
 - version running is `nginx`
 - attempting to connect via web browser results in `502 bad gateway`
 - although host is reported as up
 - webservice hosted:  Atlassian Confluence
-- webservice version: 7.13.2
+**webservice version: 7.13.2**
 - Based on provided `search.censys.io` results page the webpage is hosting a confluence instance version 7.13.2 which according to https://nvd.nist.gov/vuln/detail/cve-2022-26134 is a vulnerable version
 
 ## Part II Development
