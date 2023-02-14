@@ -1,0 +1,74 @@
+SIMILAR HOST REPORT:
+versions found:
+     running under http:
+        version: 7.13.1
+            count: 1, countries found in: ['India']
+        version: 7.15.0
+            count: 2, countries found in: ['China']
+        version: 5.8.10
+            count: 1, countries found in: ['China']
+        version: 7.13.8
+            count: 2, countries found in: ['Russia', 'China']
+        version: 6.15.1
+            count: 1, countries found in: ['China']
+        version: 7.19.4
+            count: 1, countries found in: ['China']
+        version: 7.19.5
+            count: 2, countries found in: ['China']
+        version: 7.19.3
+            count: 1, countries found in: ['China']
+        version: 7.4.6
+            count: 1, countries found in: ['China']
+        version: 7.4.18
+            count: 1, countries found in: ['China']
+        version: 7.4.11
+            count: 1, countries found in: ['China']
+        version: 7.20.1
+            count: 1, countries found in: ['China']
+        version: 7.17.0
+            count: 2, countries found in: ['Portugal', 'China']
+        version: 4.3.5
+            count: 1, countries found in: ['South Korea']
+        version: 7.5.2
+            count: 1, countries found in: ['South Korea']
+        version: 7.5.0
+            count: 2, countries found in: ['Italy']
+        version: 7.19.2
+            count: 1, countries found in: ['Russia']
+        version: 8.22.1
+            count: 1, countries found in: ['Portugal']
+        version: 8.20.1
+            count: 1, countries found in: ['Singapore']
+        version: 7.18.1
+            count: 1, countries found in: ['Singapore']
+        version: 7.4.17
+            count: 1, countries found in: ['Singapore']
+        version: 5.4.4
+            count: 1, countries found in: ['India']
+        version: 7.19.1
+            count: 2, countries found in: ['United Kingdom', 'United States']
+        version: 7.13.7
+            count: 1, countries found in: ['United Kingdom']
+        version: 7.4.5
+            count: 1, countries found in: ['United States']
+     running under https:
+        version: 7.13.0
+            count: 2, countries found in: ['United Kingdom', 'China']
+        version: 6.0.1
+            count: 1, countries found in: ['South Korea']
+        version: 7.18.1
+            count: 1, countries found in: ['Austria']
+        version: 7.13.8
+            count: 3, countries found in: ['Russia', 'United States', 'United Kingdom']
+        version: 7.4.17
+            count: 1, countries found in: ['Singapore']
+        version: 7.19.2
+            count: 1, countries found in: ['United Kingdom']
+        version: 7.20.2
+            count: 3, countries found in: ['United Kingdom']
+        version: 7.13.7
+            count: 4, countries found in: ['United Kingdom', 'United States']
+        version: 7.13.2
+            count: 3, countries found in: ['United Kingdom']
+        version: 7.19.1
+            count: 1, countries found in: ['United States']

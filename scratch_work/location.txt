@@ -1,0 +1,1 @@
+{'continent': 'Asia', 'country': 'India', 'country_code': 'IN', 'postal_code': '', 'timezone': 'Asia/Kolkata', 'coordinates': {'latitude': 21.9974, 'longitude': 79.0011}, 'registered_country': 'India', 'registered_country_code': 'IN'}
